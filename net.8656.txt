@@ -1,0 +1,33 @@
+
+LSNRCTL for 32-bit Windows: Version 10.2.0.3.0 - Production on 15-APR-2024 23:36:42
+
+Copyright (c) 1991, 2006, Oracle.  All rights reserved.
+
+Welcome to LSNRCTL, type "help" for information.
+
+LSNRCTL> Connecting to (ADDRESS=(PROTOCOL=TCP)(HOST=DESKTOP-OOAURJK)(PORT=1521))
+STATUS of the LISTENER
+------------------------
+Alias                     LISTENER
+Version                   TNSLSNR for 32-bit Windows: Version 10.2.0.3.0 - Production
+Start Date                13-APR-2024 20:30:48
+Uptime                    2 days 3 hr. 5 min. 54 sec
+Trace Level               off
+Security                  ON: Local OS Authentication
+SNMP                      OFF
+Listener Parameter File   C:\oracle\product\10.2.0\db_3\network\admin\listener.ora
+Listener Log File         C:\oracle\product\10.2.0\db_3\network\log\listener.log
+Listening Endpoints Summary...
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(PIPENAME=\\.\pipe\EXTPROC1ipc)))
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=DESKTOP-OOAURJK)(PORT=1521)))
+Services Summary...
+Service "PLSExtProc" has 1 instance(s).
+  Instance "PLSExtProc", status UNKNOWN, has 1 handler(s) for this service...
+Service "orcle" has 1 instance(s).
+  Instance "orcle", status READY, has 1 handler(s) for this service...
+Service "orcleXDB" has 1 instance(s).
+  Instance "orcle", status READY, has 1 handler(s) for this service...
+Service "orcle_XPT" has 1 instance(s).
+  Instance "orcle", status READY, has 1 handler(s) for this service...
+The command completed successfully
+LSNRCTL> 
